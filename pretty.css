@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+.banner-container {
+    background: url("./banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
+.banner-description {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav {
+    display: flex;
+    background: #dddddd;
+    border: 1px solid white;
+}
+
+.nav-item {
+    padding: 15px 25px;
+    border-right: 1px solid white;
+    cursor:pointer;
+}
+
+.nav-item:hover {
+    color: white;
+    background: #aaaaaa;
+}
+
+article {
+    display: flex;
+}
+
+.left-section {
+    width: 75%;
+    padding: 0 50px;
+}
+
+.right-section {
+    width: 25%;
+    padding: 0 50px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.card-title {
+    font-size: 26px;
+    font-weight: bold;
+    color:rgb(101, 187, 51);
+}
+
+.card-content {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 15px 0;
+}
+
+.row-image {
+    height: 150px;
+    width: 15%;
+    background-size:contain !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-01 {
+    background: url('./product1.jpg');
+}
+
+.image-02 {
+    background: url('./product2.jpg');
+}
+
+.image-03 {
+    background: url('./product3.jpg');
+}
+
+
+.row-content {
+    width: 85%;
+}
+
+.row-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row-content, .news {
+    margin-top: 10px;
+}
+
+.news-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.see-more {
+    color:rgb(101, 187, 51);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    height: 150px;
+    background:rgb(101, 187, 51);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
